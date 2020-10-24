@@ -4,12 +4,11 @@ echo -e "\033[0;42mWelcome to \033[0;43mmass downloader\033[0;42m by usiqwerty\0
 printf "Download directory: " && read D
 printf "Linklist: " && read S
 [[ $S == $D ]] && echo "See usage, exiting" &&  exit
-cd $D
 test -d $D/$S || mkdir $D/$S --parent
 cd $D/$S
 echo "Downloading to: " $D/$S/
 sleep 4
-a=$(cat ../$S)
+a=$(cat $D/../$S)
 for i in $a
 do
   	wget $i
