@@ -15,3 +15,21 @@ https://example.com/abcde/efgh.txt
 ```
 You need to enter this file's name and press Enter.
 Now `wget` will download each link into /`download directory`/`linklist file name`/ directory.
+# Example
+We have folowing file:
+```
+/home/user/my-files
+```
+It contains links for source files from Internet.
+We run Mass Downloader and type:
+```
+Download directory: /home/user/cool-program
+Linklist: /home/user/my-files
+```
+After all files were downloaded, we would have something like this:
+```
+/home/my-files
+/home/user/cool-program/main.c
+/home/user/cool-program/window.c
+/home/user/cool-program/main.h
+```
