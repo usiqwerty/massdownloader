@@ -4,6 +4,7 @@ Download files from link list
 ```
 git clone https://github.com/usiqwerty/massdownloader.git
 cd massdownloader
+chmod +x install.sh
 ./install.sh
 ```
 Now you have "md" folder in your home directory. There you can find desktop shortcut file.
