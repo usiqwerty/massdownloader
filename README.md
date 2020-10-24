@@ -25,7 +25,7 @@ It contains links for source files from Internet.
 We run Mass Downloader and type:
 ```
 Download directory: /home/user/cool-program
-Linklist: /home/user/my-files
+Linklist: my-files
 ```
 After all files were downloaded, we would have something like this:
 ```
