@@ -13,3 +13,5 @@ for i in $a
 do
   	wget $i
 done
+echo Press any key to exit
+read
